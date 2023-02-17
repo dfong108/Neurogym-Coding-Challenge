@@ -1,0 +1,245 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    max-width: 100vw;
+}
+
+body {
+    margin: 0;
+    min-width: 100vw;
+    min-height: 100vh;
+    background-color: #F5F5F5;
+    font-family: 'Montserrat', sans-serif;
+    color: #FFFFFF;
+    /* font-family: 'Poppins', sans-serif;
+    font-family: 'Sora', sans-serif; */
+}
+.hero-section {
+    min-height: 100vh;
+    position: relative;
+}
+.hero-content {
+    /* max-height: minmax(60vh, 80vh); */
+    min-height: 100%;
+    color: #FFFFFF;
+}
+.announcement {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0.2rem 5rem;
+    background: #7A9C49;
+    /* max-height: 4rem; */
+}
+.announcement h3 {
+    font-weight: 600;
+    font-size: clamp(1rem, 2vw, 2.5rem);
+}
+.heading {
+    padding-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: clamp(40%, 3vw, 50%);
+    /* margin: 0 3rem; */
+    /* background-color: red; */
+}
+.heading > * {
+    font-size: clamp(1rem, 2vw, 2rem);
+}
+.heading h1 {
+    padding-bottom: 2rem;
+    font-weight: 900;
+    font-size: 4rem;
+    font-size: clamp(1rem, 3vw, 4rem);
+}
+.heading h1 > span {
+    font-weight: 900;
+    font-size: 2.5rem;
+    font-size: clamp(1rem, 2vw, 2.5rem);
+}
+
+/* ------------ Video ------------ */
+.video {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: clamp(70%, 3vw, 50%);
+    max-height: 60vh;
+    /* transform: translateY(30%); */
+    align-items: center;
+    justify-content: center;
+    border-radius: 2rem;
+    overflow: hidden;
+}
+#video-shadow {
+    min-width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+.video-alert {
+    position: absolute;
+    top: 0;
+    min-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0.5rem;
+    background-color: #394259;
+    margin: 0;
+}
+.video-alert > * {
+    font-weight: 200;
+    font-size: clamp(1rem, 1vw, 2rem);
+}
+.video-img-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-width: 100%;
+    min-height: 100%;
+    margin: 0;
+}
+.video-img-wrapper img {
+    width: 120%;
+    object-fit: cover;
+}
+
+/* Blue Banner */
+.banner {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-width: 100%;
+    min-height: 50vh;
+    max-height: 70vh;
+    z-index: -10;
+    top: 0;
+    background-image: url(assets/images/business-strategy-success-target-goals1.png);
+    background-position: left;
+    background-size:cover;
+}
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    background: #0E5ECB;
+    opacity: 80%;
+}
+
+/* Media Icons */
+.media-icons {
+    max-width: 100%;
+    width: 90%;
+}
+.media-icons img {
+    max-width: 100%;
+}
+
+/* ----- Call To Action ----- */
+.call-to-action {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* min-width: 70%;
+    max-width: 70%; */
+    width: clamp(60%, 1.5vw, 70%);
+    bottom: 0;
+    color: #F50D0D;
+    font-weight: 500;
+}
+.call-to-action button {
+    width: 60%;
+    background: linear-gradient(153.77deg, #FFA300 21.41%, #FF7A00 86.48%);
+    color: #FFFFFF;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+.call-to-action button > h2 {
+    font-weight: 600;
+}
+.action-arrows {
+    display: flex;
+    position: absolute;
+    width: 90%;
+    justify-content: space-between;
+    bottom: 2rem;
+    padding: 4rem;
+}
+.action-arrows * {
+    width: 3rem;
+}
+.action-arrows :nth-child(2) {
+    transform: scaleX(-1);
+}
+.discount {
+    display: flex;
+    text-align: center;
+    font-weight: 500;
+    padding-top: 2rem;
+}
+
+/* ------- PRODUCT LIST------- */
+.product-list-section {
+    width: 100vh;
+    min-height: 100vh;
+    color: black;
+}
+.product-list-wrapper {
+    display: flex;
+    border: 3px solid #394259;
+}
+.features {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    /* background-color: aquamarine; */
+}
+.feature-box {
+    display: flex;
+    background-color: red;
+}
+
+.check-or-x-icon {
+    width: 2.5rem;
+}
+.join-and-save span {
+    font-weight: 600;
+}
+
+.get-started-section {
+    gap: 1rem;
+    font-size: clamp(1.2rem, 2vw, 2rem);
+}
+
+
+
+#start-foundation-btn {
+    width: 60%;
+    padding: 1rem;
+    font-weight: 600;
+    color: #FF7A00;
+    border: 2px solid #FF7A00;
+    border-radius: 2.5px;
+    cursor: pointer;
+}
+
+#start-elite-btn {
+    width: 60%;
+    padding: 1rem;
+    background: linear-gradient(153.77deg, #FFA300 21.41%, #FF7A00 86.48%);
+    font-weight: 600;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 2.5px;
+    cursor: pointer;
+}
