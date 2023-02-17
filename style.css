@@ -195,7 +195,10 @@ body {
 }
 .product-list-wrapper {
     display: flex;
-    border: 3px solid #394259;
+    background: linear-gradient(180deg, rgba(236, 241, 248, 0) 0.6%, #ECF1F8 100.6%);
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    max-width: 80%;
 }
 .features {
     display: flex;
@@ -204,10 +207,19 @@ body {
     flex-direction: column;
     /* background-color: aquamarine; */
 }
+
 .feature-box {
     display: flex;
-    background-color: red;
 }
+
+.feature-row:nth-of-type(odd){
+    /* background-color: #2F80ED; */
+}
+
+.bbc-elite {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
 
 .check-or-x-icon {
     width: 2.5rem;
@@ -218,7 +230,7 @@ body {
 
 .get-started-section {
     gap: 1rem;
-    font-size: clamp(1.2rem, 2vw, 2rem);
+    font-size: clamp(1rem, 2vw, 1.2rem);
 }
 
 
@@ -226,8 +238,8 @@ body {
     width: 60%;
     padding: 1rem;
     font-weight: 600;
-    color: #FF7A00;
-    border: 2px solid #FF7A00;
+    color: #FFA300;
+    border: 2px solid #FFA300;
     border-radius: 2.5px;
     cursor: pointer;
 }
