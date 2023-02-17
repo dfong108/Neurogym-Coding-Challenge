@@ -106,7 +106,10 @@ body {
     width: 120%;
     object-fit: cover;
 }
-
+#play-button {
+    position: absolute;
+    max-width: 10%;
+}
 /* Blue Banner */
 .banner {
     position: absolute;
