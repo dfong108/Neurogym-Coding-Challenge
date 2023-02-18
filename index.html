@@ -20,23 +20,27 @@
     <link rel="stylesheet" href="style.css">
     <title>Davidson Fong - Neurogym</title>
 </head>
+
 <body>
+
     <!-- HERO SECTION -->
     <section class="hero-section">
         <div class="announcement">
-            <h3>ATTENTION: BUSINESS BREAKTHROUGH CHALLENGE ALUMNI MEMBERS...</h3>
+            <h3><b>ATTENTION:</b> BUSINESS BREAKTHROUGH CHALLENGE ALUMNI MEMBERS...</h3>
         </div>
-        <div class="hero-content d-flex flex-column align-content-center justify-content-center text-center">
+
+        <!-- <div class="hero-content d-flex flex-column align-content-center justify-content-evenly text-center"> -->
+        <div class="hero-content d-flex flex-column justify-content-center justify-content-md-evenly px-0">
             <!-- Heading -->
-            <div class="heading mx-auto">
+            <div class="heading mx-auto mb-5">
                 <h1>Get FREE VIP ACCESSS to the 5-Day <span>Business Breakthrough Challenge</span></h1>
                 <h3>Get Instant Access to LIVE Q&As with John Assaraf for 5 days Straight (100% Free)</h3>
             </div>
     
             <!-- Video -->
-            <div class="video mx-auto w-75">
+            <div class="video mx-auto w-75 mt-5">
                 <div class="video-alert">
-                    <h3>Make Sure Your Sound Is Turned ON! (Please Wait For Video To Fully Load)</h3>
+                    <h3><b>Make Sure Your Sound Is Turned ON!</b> (Please Wait For Video To Fully Load)</h3>
                 </div>
                 <div class="video-img-wrapper">
                     <img id="play-button" src="assets/icons/play-button-svgrepo-com.svg" alt="">
@@ -46,25 +50,26 @@
             </div>
 
             <!-- Media Icons -->
-            <div class="media-icons py-md-4 mx-auto">
+            <div class="media-icons py-md-4 mb-5 mx-auto">
                 <img src="assets/images/media-icons.png" alt="">
             </div>
 
             <!-- Call-To-Action -->
             <div class="call-to-action mx-auto">
-                <div class="action-arrows">
-                    <img src="assets/icons/red-arrow-sm.png" alt="">
-                    <img src="assets/icons/red-arrow-sm.png" alt="">
+                <div class="action-area">
+                    <div class="action-arrows d-none d-md-flex">
+                        <img src="assets/icons/red-arrow-sm.png" alt="">
+                        <img src="assets/icons/red-arrow-sm.png" alt="">
+                    </div>
+                    <button class="py-4">
+                        <h2>GET FREE VIP ACCESS NOW</h2>
+                        <h6>100% Free VIP ACCESS For Previous Members</h6>
+                    </button>
                 </div>
-                <button class="py-4">
-                    <h2>GET FREE VIP ACCESS NOW</h2>
-                    <h6>100% Free VIP ACCESS For Previous Members</h6>
-                </button>
                 <div class="discount">
                     <p>ONLY Available For the First 200 People to Join!<br>(A Savings of 13,679!)</p>
                 </div>
             </div>
-
 
         </div>
 
@@ -77,208 +82,213 @@
 
 
     <!-- PRODUCT LIST SECTION -->
+
     <section class="product-list-section d-flex d-md-inline mx-auto">
         <!-- LG Table -->
         <div class="container product-list-wrapper row-cols-1 px-0">
 
-            <div class="features row row-cols-1 m-0 d-flex table-striped">
-                <!-- Title Main Row -->
+            <div class="row row-cols-1 m-0 d-flex">
+            <!-- Product Title -->
                 <div class="col">
-                    <div class="row row-cols-3 product-title-box">
+                    <div class="product-title-box row row-cols-3 flex text-center align-content-center">
                         <h2 class="col feature-title"></h2>
                         <h2 class="col feature-title">BBC FOUNDATION</h2>
                         <h2 class="col feature-title">BBC VIP ELITE</h2>
                     </div>
                 </div>
-                
-                <!-- 1 Main Row-->
-                <div class="col feature-row">
-                    <div class="row row-cols-3 feature-box">
-                        <div class="col">
-                            <p class="feature-highlight">
-                                5 Days of Powerful, <u>Proven</u> Million-Dollar Business
-                                <span class="feature-details">Training STREAMED from the Comfort Of your Home</span>
-                                <span class="feature-value"> ($997 Value)</span>
-                            </p>
-                        </div>
-                        <!-- BBC Foundation -->
-                        <div class="col d-flex justify-content-center align-items-center">
-                            <img class="check-or-x-icon" src="assets/icons/green-check.png" alt="">
-                        </div>
-                        <!-- BBC VIP Elite -->
-                        <div class="bbc-elite col d-flex justify-content-center align-items-center">
-                            <img class="check-or-x-icon" src="assets/icons/green-check.png" alt="">
-                        </div>
-                    </div>
-                </div>
-                
-                <!-- 2 Main Row-->
-                <div class="col feature-row">
-                    <div class="row row-cols-3 feature-box">
-                        <div class="col">
-                            <p class="feature-highlight">
-                                Access To Our Private Business Network:
-                                <span class="feature-details"> Connect With Business Owners & Entrepreneurs from around the world to celebrate your success</span>
-                                <span class="feature-value"> ($197 Value)</span>
-                            </p>
-                        </div>
-                        <!-- BBC Foundation -->
-                        <div class="col d-flex justify-content-center align-items-center">
-                            <img class="check-or-x-icon" src="assets/icons/green-check.png" alt="">
-                        </div>
-                        <!-- BBC VIP Elite -->
-                        <div class="bbc-elite col d-flex justify-content-center align-items-center">
-                            <img class="check-or-x-icon" src="assets/icons/green-check.png" alt="">
+
+                <!-- Features List -->
+                <div class="product-features-wrapper">
+                    <!-- Feature #1 -->
+                    <div class="col feature-row">
+                        <div class="row row-cols-3 feature-box">
+                            <div class="col">
+                                <p class="feature-highlight">
+                                    5 Days of Powerful, <u>Proven</u> Million-Dollar Business
+                                    <span class="feature-details">Training STREAMED from the Comfort Of your Home</span>
+                                    <span class="feature-value"> ($997 Value)</span>
+                                </p>
+                            </div>
+                            <!-- BBC Foundation -->
+                            <div class="foundation-feature col d-flex justify-content-center align-items-center">
+                                <img class="check-or-x-icon" src="assets/icons/green-check.png" alt="">
+                            </div>
+                            <!-- BBC VIP Elite -->
+                            <div class="elite-feature col d-flex justify-content-center align-items-center">
+                                <img class="check-or-x-icon" src="assets/icons/green-check.png" alt="">
+                            </div>
                         </div>
                     </div>
-                </div>
-                
-                <!-- 3 Main Row-->
-                <div class="col feature-row">
-                    <div class="row row-cols-3 feature-box">
-                        <div class="col">
-                            <p class="feature-highlight">
-                                Unlocked: John's Personal Vault Of Business Worksheets & Blueprints: 
-                                <span class="feature-details"> Specially Designed To Put What You're Learning...Into Action</span>
-                                <span class="feature-value"> ($97 Value)</span>
-                            </p>
-                        </div>
-                        <!-- BBC Foundation -->
-                        <div class="col d-flex justify-content-center align-items-center">
-                            <img class="check-or-x-icon" src="assets/icons/green-check.png" alt="">
-                        </div>
-                        <!-- BBC VIP Elite -->
-                        <div class="bbc-elite col d-flex justify-content-center align-items-center">
-                            <img class="check-or-x-icon" src="assets/icons/green-check.png" alt="">
-                        </div>
-                    </div>
-                </div>
-                
-                <!-- 4 Main Row-->
-                <div class="col feature-row">
-                    <div class="row row-cols-3 feature-box">
-                        <div class="col">
-                            <p class="feature-highlight">
-                                Surprise Bonuses Throughout The Challenge:
-                                <span class="feature-details"> If We Told You What It Was...It Wouldn't Be A Surprise!</span>
-                                <span class="feature-value"> ($297 Value)</span>
-                            </p>
-                        </div>
-                        <!-- BBC Foundation -->
-                        <div class="col d-flex justify-content-center align-items-center">
-                            <img class="check-or-x-icon" src="assets/icons/green-check.png" alt="">
-                        </div>
-                        <!-- BBC VIP Elite -->
-                        <div class="bbc-elite col d-flex justify-content-center align-items-center">
-                            <img class="check-or-x-icon" src="assets/icons/green-check.png" alt="">
+                    
+                    <!-- Feature #2-->
+                    <div class="col feature-row">
+                        <div class="row row-cols-3 feature-box">
+                            <div class="col">
+                                <p class="feature-highlight">
+                                    Access To Our Private Business Network:
+                                    <span class="feature-details"> Connect With Business Owners & Entrepreneurs from around the world to celebrate your success</span>
+                                    <span class="feature-value"> ($197 Value)</span>
+                                </p>
+                            </div>
+                            <!-- BBC Foundation -->
+                            <div class="foundation-feature col d-flex justify-content-center align-items-center">
+                                <img class="check-or-x-icon" src="assets/icons/green-check.png" alt="">
+                            </div>
+                            <!-- BBC VIP Elite -->
+                            <div class="elite-feature col d-flex justify-content-center align-items-center">
+                                <img class="check-or-x-icon" src="assets/icons/green-check.png" alt="">
+                            </div>
                         </div>
                     </div>
-                </div>
-                
-                <!-- 5 Main Row -->
-                <div class="col feature-row">
-                    <div class="row row-cols-3 feature-box">
-                        <div class="col">
-                            <p class="feature-highlight">
-                                Unlimited Access to Recordings Of The Business Breakthrough Traninings:
-                                <span class="feature-details"> Get every Masterclass inside our private Facebook group for 30 days.</span>
-                                <span class="feature-value"> ($97 Value)</span>
-                            </p>
-                        </div>
-                        <!-- BBC Foundation -->
-                        <div class="col d-flex justify-content-center align-items-center">
-                            <img class="check-or-x-icon" src="assets/icons/green-check.png" alt="">
-                        </div>
-                        <!-- BBC VIP Elite -->
-                        <div class="bbc-elite col d-flex justify-content-center align-items-center">
-                            <img class="check-or-x-icon" src="assets/icons/green-check.png" alt="">
-                        </div>
-                    </div>
-                </div>
-                
-                <!-- 6 Main Row -->
-                <div class="col feature-row">
-                    <div class="row row-cols-3 feature-box">
-                        <div class="col">
-                            <p class="feature-highlight">
-                                Bonus Mastermind Training Day For VIPs Only:
-                                <span class="feature-details"> Special Training On How To 3X your Power in Business, Mindset, & Relationships in 30 Days (Or Less)</span>
-                                <span class="feature-value"> ($300 Value)</span>
-                            </p>
-                        </div>
-                        <!-- BBC Foundation -->
-                        <div class="col d-flex justify-content-center align-items-center">
-                            <img class="check-or-x-icon" src="assets/icons/red-x.png" alt="">
-                        </div>
-                        <!-- BBC VIP Elite -->
-                        <div class="bbc-elite col d-flex justify-content-center align-items-center">
-                            <img class="check-or-x-icon" src="assets/icons/green-check.png" alt="">
+                    
+                    <!-- Feature #3-->
+                    <div class="col feature-row">
+                        <div class="row row-cols-3 feature-box">
+                            <div class="col">
+                                <p class="feature-highlight">
+                                    Unlocked: John's Personal Vault Of Business Worksheets & Blueprints: 
+                                    <span class="feature-details"> Specially Designed To Put What You're Learning...Into Action</span>
+                                    <span class="feature-value"> ($97 Value)</span>
+                                </p>
+                            </div>
+                            <!-- BBC Foundation -->
+                            <div class="foundation-feature col d-flex justify-content-center align-items-center">
+                                <img class="check-or-x-icon" src="assets/icons/green-check.png" alt="">
+                            </div>
+                            <!-- BBC VIP Elite -->
+                            <div class="elite-feature col d-flex justify-content-center align-items-center">
+                                <img class="check-or-x-icon" src="assets/icons/green-check.png" alt="">
+                            </div>
                         </div>
                     </div>
-                </div>
-                
-                <!-- 7 Main Row -->
-                <div class="col feature-row">
-                    <div class="row row-cols-3 feature-box">
-                        <div class="col">
-                            <p class="feature-highlight">
-                                Behind-The-Scenes Access to All 5 Trainings:
-                                <span class="feature-details"> Be In The Zoom Room With John LIVE, Ask YOUR Business Questions and Actively Participate</span>
-                                <span class="feature-value"> ($997 Value)</span>
-                            </p>
-                        </div>
-                        <!-- BBC Foundation -->
-                        <div class="col d-flex justify-content-center align-items-center">
-                            <img class="check-or-x-icon" src="assets/icons/red-x.png" alt="">
-                        </div>
-                        <!-- BBC VIP Elite -->
-                        <div class="bbc-elite col d-flex justify-content-center align-items-center">
-                            <img class="check-or-x-icon" src="assets/icons/green-check.png" alt="">
-                        </div>
-                    </div>
-                </div>
-                
-                <!-- 8 Main Row -->
-                <div class="col feature-row">
-                    <!-- Feature Description -->
-                    <div class="row row-cols-3 feature-box">
-                        <div class="col">
-                            <p class="feature-highlight">
-                                <s>30 Days</s>: Lifetime! Access To Recordings Of The Challenge:
-                                <span class="feature-details"> Review The Trainings Anytime To Get Even More Revenue Generating Wisdom.</span>
-                                <span class="feature-value"> ($297 Value)</span>
-                            </p>
-                        </div>
-                        <!-- BBC Foundation -->
-                        <div class="col d-flex justify-content-center align-items-center">
-                            <img class="check-or-x-icon" src="assets/icons/red-x.png" alt="">
-                        </div>
-                        <!-- BBC VIP Elite -->
-                        <div class="bbc-elite col d-flex justify-content-center align-items-center">
-                            <img class="check-or-x-icon" src="assets/icons/green-check.png" alt="">
+                    
+                    <!-- Feature #4-->
+                    <div class="col feature-row">
+                        <div class="row row-cols-3 feature-box">
+                            <div class="col">
+                                <p class="feature-highlight">
+                                    Surprise Bonuses Throughout The Challenge:
+                                    <span class="feature-details"> If We Told You What It Was...It Wouldn't Be A Surprise!</span>
+                                    <span class="feature-value"> ($297 Value)</span>
+                                </p>
+                            </div>
+                            <!-- BBC Foundation -->
+                            <div class="foundation-feature col d-flex justify-content-center align-items-center">
+                                <img class="check-or-x-icon" src="assets/icons/green-check.png" alt="">
+                            </div>
+                            <!-- BBC VIP Elite -->
+                            <div class="elite-feature col d-flex justify-content-center align-items-center">
+                                <img class="check-or-x-icon" src="assets/icons/green-check.png" alt="">
+                            </div>
                         </div>
                     </div>
-                </div>
-                
-                <!-- 9 -->
-                <div class="col feature-row">
-                    <div class="row row-cols-3 feature-box">
-                        <div class="col">
-                            <p class="feature-highlight">
-                                Private Q&A Session After Every Live Training For VIPs Only (5 Bonus Hours of Q&A!):
-                                <span class="feature-details"> Get Expert Business Advice from John on your Business Niche & Real-time Solutions to your Challenges.</span>
-                                <span class="feature-value"> ($400 Value)</span>
-                            </p>
-                        </div>
-                        <!-- BBC Foundation -->
-                        <div class="col d-flex justify-content-center align-items-center">
-                            <img class="check-or-x-icon" src="assets/icons/red-x.png" alt="">
-                        </div>
-                        <!-- BBC VIP Elite -->
-                        <div class="bbc-elite col d-flex justify-content-center align-items-center">
-                            <img class="check-or-x-icon" src="assets/icons/green-check.png" alt="">
+                    
+                    <!-- Feature #5 -->
+                    <div class="col feature-row">
+                        <div class="row row-cols-3 feature-box">
+                            <div class="col">
+                                <p class="feature-highlight">
+                                    Unlimited Access to Recordings Of The Business Breakthrough Traninings:
+                                    <span class="feature-details"> Get every Masterclass inside our private Facebook group for 30 days.</span>
+                                    <span class="feature-value"> ($97 Value)</span>
+                                </p>
+                            </div>
+                            <!-- BBC Foundation -->
+                            <div class="foundation-feature col d-flex justify-content-center align-items-center">
+                                <img class="check-or-x-icon" src="assets/icons/green-check.png" alt="">
+                            </div>
+                            <!-- BBC VIP Elite -->
+                            <div class="elite-feature col d-flex justify-content-center align-items-center">
+                                <img class="check-or-x-icon" src="assets/icons/green-check.png" alt="">
+                            </div>
                         </div>
                     </div>
+                    
+                    <!-- Feature #6 -->
+                    <div class="col feature-row">
+                        <div class="row row-cols-3 feature-box">
+                            <div class="col">
+                                <p class="feature-highlight">
+                                    Bonus Mastermind Training Day For VIPs Only:
+                                    <span class="feature-details"> Special Training On How To 3X your Power in Business, Mindset, & Relationships in 30 Days (Or Less)</span>
+                                    <span class="feature-value"> ($300 Value)</span>
+                                </p>
+                            </div>
+                            <!-- BBC Foundation -->
+                            <div class="foundation-feature col d-flex justify-content-center align-items-center">
+                                <img class="check-or-x-icon" src="assets/icons/red-x.png" alt="">
+                            </div>
+                            <!-- BBC VIP Elite -->
+                            <div class="elite-feature col d-flex justify-content-center align-items-center">
+                                <img class="check-or-x-icon" src="assets/icons/green-check.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Feature #7 -->
+                    <div class="col feature-row">
+                        <div class="row row-cols-3 feature-box">
+                            <div class="col">
+                                <p class="feature-highlight">
+                                    Behind-The-Scenes Access to All 5 Trainings:
+                                    <span class="feature-details"> Be In The Zoom Room With John LIVE, Ask YOUR Business Questions and Actively Participate</span>
+                                    <span class="feature-value"> ($997 Value)</span>
+                                </p>
+                            </div>
+                            <!-- BBC Foundation -->
+                            <div class="foundation-feature col d-flex justify-content-center align-items-center">
+                                <img class="check-or-x-icon" src="assets/icons/red-x.png" alt="">
+                            </div>
+                            <!-- BBC VIP Elite -->
+                            <div class="elite-feature col d-flex justify-content-center align-items-center">
+                                <img class="check-or-x-icon" src="assets/icons/green-check.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Feature #8 -->
+                    <div class="col feature-row">
+                        <!-- Feature Description -->
+                        <div class="row row-cols-3 feature-box">
+                            <div class="col">
+                                <p class="feature-highlight">
+                                    <s>30 Days</s>: Lifetime! Access To Recordings Of The Challenge:
+                                    <span class="feature-details"> Review The Trainings Anytime To Get Even More Revenue Generating Wisdom.</span>
+                                    <span class="feature-value"> ($297 Value)</span>
+                                </p>
+                            </div>
+                            <!-- BBC Foundation -->
+                            <div class="foundation-feature col d-flex justify-content-center align-items-center">
+                                <img class="check-or-x-icon" src="assets/icons/red-x.png" alt="">
+                            </div>
+                            <!-- BBC VIP Elite -->
+                            <div class="elite-feature col d-flex justify-content-center align-items-center">
+                                <img class="check-or-x-icon" src="assets/icons/green-check.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- 9 -->
+                    <div class="col feature-row">
+                        <div class="row row-cols-3 feature-box">
+                            <div class="col">
+                                <p class="feature-highlight">
+                                    Private Q&A Session After Every Live Training For VIPs Only (5 Bonus Hours of Q&A!):
+                                    <span class="feature-details"> Get Expert Business Advice from John on your Business Niche & Real-time Solutions to your Challenges.</span>
+                                    <span class="feature-value"> ($400 Value)</span>
+                                </p>
+                            </div>
+                            <!-- BBC Foundation -->
+                            <div class="foundation-feature col d-flex justify-content-center align-items-center">
+                                <img class="check-or-x-icon" src="assets/icons/red-x.png" alt="">
+                            </div>
+                            <!-- BBC VIP Elite -->
+                            <div class="elite-feature col d-flex justify-content-center align-items-center">
+                                <img class="check-or-x-icon" src="assets/icons/green-check.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    
                 </div>
                 
                 <!-- Price Block -->
@@ -288,14 +298,14 @@
                         <div class="col empty">
                         </div>
                         <!-- BBC Foundation -->
-                        <div class="col get-started-section d-flex flex-column justify-content-center align-items-center text-center">
+                        <div class="get-started-section col d-flex flex-column justify-content-center align-items-center text-center">
                             <p class="total-value">That's a Total Value of <b>$1,685</b></p>
                             <h2 class="start-price"><b>$47 USD</b></h2>
                             <button id="start-foundation-btn" class="get-started-btn">GET STARTED NOW</button>
                             <p class="join-and-save">Join Now And<span> Save $1,638</span></p>
                         </div>
                         <!-- BBC VIP Elite -->
-                        <div class="col get-started-section d-flex flex-column justify-content-center align-items-center text-center">
+                        <div class="get-started-section col d-flex flex-column justify-content-center align-items-center text-center">
                             <p class="total-value">That's a Total Value of <b>$3,679</b></p>
                             <h2 class="start-price"><b>$144 USD</b></h2>
                             <button id="start-elite-btn" class="get-started-btn">GET STARTED NOW</button>
@@ -305,12 +315,13 @@
                 </div>
 
             
-            <!-- Product 2: BBC VIP Elite -->
-
-        </div>
+                <!-- Product 2: BBC VIP Elite -->
             </div>
+        </div>
     </section>
 
+
+    <!-- FOOTER -->
     <footer class="d-md-flex flex-column flex-lg-row justify-content-center justify-content-md-between align-items-center pt-5 text-dark">
         <div class="footer-links-left d-flex justify-content-center justify-content-md-start align-items-center">
             <!-- <p><b>Need Help?</b></p> -->
@@ -320,21 +331,20 @@
                     <b>Need Help?</b>
                 </span>
                 <!-- support@myneurogym.com -->
-                <span>support@myneurogym.com</span>
+                <a href="#" class="footer-links">support@myneurogym.com</a>
             </p>
         </div>
         <div class="footer-links-right d-flex justify-content-center justify-content-md-end text-center align-items-md-center">
             <ul>
-                <a href="#"><l>Terms of Use</l></a> -
-                <a href="#"><l> Privacy Policy</l></a> -
-                <a href="#"><l> Terms & Conditions of Sale</l></a> -
-                <a href="#"><l> Refund Policy</l></a> -
-                <a href="#"><l> Affiliate Disclaimer</l></a> -
-                <a href="#"><l> Contact Us</l></a>
+                <a class="footer-links" href="#"><l>Terms of Use</l></a> -
+                <a class="footer-links" href="#"><l> Privacy Policy</l></a> -
+                <a class="footer-links" href="#"><l> Terms & Conditions of Sale</l></a> -
+                <a class="footer-links" href="#"><l> Refund Policy</l></a> -
+                <a class="footer-links" href="#"><l> Affiliate Disclaimer</l></a> -
+                <a class="footer-links" href="#"><l> Contact Us</l></a>
             </ul>
         </div>
     </footer>
-
 
 </body>
 </html>
