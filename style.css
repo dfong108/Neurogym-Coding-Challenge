@@ -214,8 +214,15 @@ body {
 
 .feature-box {
     display: flex;
+    font-size: clamp(1rem, 1vw, 10rem)
 }
 
+.feature-highlight {
+    font-weight: 600;
+}
+.feature-details {
+    font-weight: normal;
+}
 /* .feature-row :nth-of-type(){
     background-color: #2F80ED;
 } */
